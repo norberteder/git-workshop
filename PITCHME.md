@@ -30,13 +30,13 @@ Introduction into git
 
 #### List Configuration
 
-List global configuration:
+List global configuration
 
 ```
 git config --global -l
 ```
 
-List local configuration:
+List local configuration
 
 ```
 git config -l
@@ -46,14 +46,14 @@ git config -l
 
 #### Configure Identity
 
-Set global configuration:
+Set global configuration
 
 ```
 git config --global user.name "Max Mustermann"
 git config --global user.email "m.mustermann@test.com"
 ```
 
-Set local configuration: 
+Set local configuration
 
 ```
 git config user.name "Max Mustermann"
