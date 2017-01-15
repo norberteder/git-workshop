@@ -82,6 +82,8 @@ git config --unset-all <name>
 
 ## Common Commands
 
+Commands you have to know
+
 #VSLIDE
 
 ### Repository
@@ -150,7 +152,13 @@ git diff
 
 #HSLIDE
 
-## Transfer changes to server
+## Handling changes
+
+Working with changes
+
+#VSLIDE
+
+### Transfer changes to server
 
 Add changes to local repository
 
@@ -164,9 +172,9 @@ Push changes to remote repository
 git push
 ```
 
-#HSLIDE
+#VSLIDE
 
-## Undo Things
+### Undo Things
 
 Unmodify modified file
 
@@ -178,58 +186,6 @@ Revert commit
 
 ```
 git revert 9f38eff
-```
-
-#HSLIDE
-
-## Working with branches
-
-List branches
-
-```
-git branch
-```
-
-Create branch
-
-```
-git branch <branchname>
-```
-
-Rename branch
-
-```
-git branch -m <old-branchname> <new-branchname>
-```
-
-Delete branch
-
-```
-git branch -d <branchname>
-```
-
-#VSLIDE
-
-## Switch branches
-
-Switch branch
-
-```
-git checkout <branch>
-```
-
-Create and/or reset branch
-
-```
-git checkout -f <branch>
-```
-
-## Merge branches
-
-Call from target branch
-
-```
-git merge <branch>
 ```
 
 #VSLIDE
@@ -264,6 +220,62 @@ Apply stash
 
 ```
 git stash pop <stash>
+```
+
+#HSLIDE
+
+## Branches
+
+Working with branches
+
+### Working with branches
+
+List branches
+
+```
+git branch
+```
+
+Create branch
+
+```
+git branch <branchname>
+```
+
+Rename branch
+
+```
+git branch -m <old-branchname> <new-branchname>
+```
+
+Delete branch
+
+```
+git branch -d <branchname>
+```
+
+#VSLIDE
+
+### Switch branches
+
+Switch branch
+
+```
+git checkout <branch>
+```
+
+Create and/or reset branch
+
+```
+git checkout -f <branch>
+```
+
+### Merge branches
+
+Call from target branch
+
+```
+git merge <branch>
 ```
 
 #HSLIDE
