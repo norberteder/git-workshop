@@ -1,20 +1,22 @@
-# HSLIDE
+#HSLIDE
 
 # git Workshop
 
+## Get Into git easily
+
 Norbert Eder
 
-# HSLIDE
+#HSLIDE
 
 ## Basics
 
 Get an overview how git works.
 
-# VSLIDE
+#VSLIDE
 
 ### Configuration
 
-# VSLIDE
+#VSLIDE
 
 #### List Configuration
 
@@ -32,7 +34,7 @@ To show the local configuration, call (from within a repository):
 git config -l
 ```
 
-# VSLIDE
+#VSLIDE
 
 #### Configure Identity
 
@@ -43,7 +45,7 @@ git config --global user.name "Max Mustermann"
 git config --global user.email "m.mustermann@test.com"
 ```
 
-# HSLIDE
+#HSLIDE
 
 ## Commands
 
@@ -52,4 +54,3 @@ The most important commands.
 #HSLIDE
 
 ## Workshop
-
