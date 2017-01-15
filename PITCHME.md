@@ -60,6 +60,12 @@ git config user.name "Max Mustermann"
 git config user.email "m.mustermann@test.com"
 ```
 
+Remove configuration
+
+```
+git config --unset <name>
+git config --unset-all <name>
+
 #HSLIDE
 
 ## Common Commands
