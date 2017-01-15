@@ -237,6 +237,40 @@ Call from target branch
 git merge <branch>
 ```
 
+#VSLIDE
+
+## Stashing
+
+Stash working changes
+
+```
+git stash
+```
+
+Show all stashes
+
+```
+git stash list
+```
+
+Show specific stash
+
+```
+git stash show <stash>
+```
+
+Drop stash
+
+```
+git stash drop <stash>
+```
+
+Apply stash
+
+```
+git stash pop <stash>
+```
+
 #HSLIDE
 
 ## Workshop
