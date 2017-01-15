@@ -285,3 +285,12 @@ git merge <branch>
 ## Workshop
 
 ### Local Branch
+
+```
+(master): git checkout -b hotfix
+(hotfix): git commit -am "Change .... "
+(hotfix): git checkout master
+(master): git merge hotfix
+(master): git push
+(master): git branch -d hotfix
+```
