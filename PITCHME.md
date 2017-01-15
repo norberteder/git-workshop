@@ -86,6 +86,12 @@ git clone https://github.com/norberteder/git-workshop
 git add file-to-add.md
 ```
 
+### Add all files
+
+```
+git add .
+```
+
 ### Remove file
 
 ```
@@ -147,13 +153,41 @@ git push
 ### Unmodify modified file
 
 ```
-git checkout -- filen.ame
+git checkout -- <filename>
 ```
 
 ### Revert commit
 
 ```
 git revert 9f38eff
+```
+
+#HSLIDE
+
+## Working with branches
+
+### List branches
+
+```
+git branch
+```
+
+### Create branch
+
+```
+git branch <branchname>
+```
+
+### Rename branch
+
+```
+git branch -m <old-branchname> <new-branchname>
+```
+
+### Delete branch
+
+```
+git branch -d <branchname>
 ```
 
 #HSLIDE
