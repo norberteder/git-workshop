@@ -110,7 +110,7 @@ git rm file-to-delete.md
 git commmit -am "Add new feature 1"
 ```
 
-#VLIDE
+#VSLIDE
 
 ### Show working tree status
 
