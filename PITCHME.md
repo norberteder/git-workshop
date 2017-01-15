@@ -65,6 +65,7 @@ Remove configuration
 ```
 git config --unset <name>
 git config --unset-all <name>
+```
 
 #HSLIDE
 
@@ -72,13 +73,15 @@ git config --unset-all <name>
 
 #VSLIDE
 
-### Initialize Repository
+### Repository
+
+Initialize Repository
 
 ```
 git init
 ```
 
-### Clone Repository
+Clone Repository
 
 ```
 git clone https://github.com/norberteder/git-workshop
@@ -86,51 +89,49 @@ git clone https://github.com/norberteder/git-workshop
 
 #VSLIDE
 
-### Add new file
+### Handling files
+
+Add new file
 
 ```
 git add file-to-add.md
 ```
 
-### Add all files
+Add all files
 
 ```
 git add .
 ```
 
-### Remove file
+Remove file
 
 ```
 git rm file-to-delete.md
 ```
 
-### Commmit changes
-
-```
-git commmit -am "Add new feature 1"
-```
-
 #VSLIDE
 
-### Show working tree status
+### Show information
+
+Show working tree status
 
 ```
 git status
 ```
 
-### Show commits
+Show commits
 
 ```
 git show
 ```
 
-### Show log
+Show log
 
 ```
 git log
 ```
 
-### Show diffs
+Show diffs
 
 ```
 git diff
@@ -140,13 +141,13 @@ git diff
 
 ## Transfer changes to server
 
-### Add changes to local repository
+Add changes to local repository
 
 ```
 git commit -am "meaningful commit message"
 ```
 
-### Push changes to remote repository
+Push changes to remote repository
 
 ```
 git push
@@ -156,13 +157,13 @@ git push
 
 ## Undo Things
 
-### Unmodify modified file
+Unmodify modified file
 
 ```
 git checkout -- <filename>
 ```
 
-### Revert commit
+Revert commit
 
 ```
 git revert 9f38eff
@@ -172,25 +173,25 @@ git revert 9f38eff
 
 ## Working with branches
 
-### List branches
+List branches
 
 ```
 git branch
 ```
 
-### Create branch
+Create branch
 
 ```
 git branch <branchname>
 ```
 
-### Rename branch
+Rename branch
 
 ```
 git branch -m <old-branchname> <new-branchname>
 ```
 
-### Delete branch
+Delete branch
 
 ```
 git branch -d <branchname>
