@@ -11,7 +11,13 @@ Norbert Eder
 
 ## Basics
 
-Get an overview how git works.
+Introduction into git
+
+#VSLIDE
+
+* Distributed version control system
+* Remote and local version database
+* Git only adds data (never deletes)
 
 #VSLIDE
 
@@ -53,31 +59,44 @@ Set local configuration:
 git config user.name "Max Mustermann"
 git config user.email "m.mustermann@test.com"
 ```
+
+#HSLIDE
+
+## Common Commands
+
 #VSLIDE
 
 ### Initialize Repository
-
-Create directory and jump in.
 
 ```
 git init
 ```
 
-#VSLIDE
-
 ### Clone Repository
-
-Clone a repository from a git server:
 
 ```
 git clone https://github.com/norberteder/git-workshop
 ```
 
-#HSLIDE
+#VSLIDE
 
-## General Commands
+### Add new file
 
-The most important commands.
+```
+git add file-to-add.md
+```
+
+### Remove file
+
+```
+git rm file-to-delete.md
+```
+
+### Commmit changes
+
+```
+git commmit -am "Add new feature 1"
+```
 
 #HSLIDE
 
