@@ -98,6 +98,64 @@ git rm file-to-delete.md
 git commmit -am "Add new feature 1"
 ```
 
+#VLIDE
+
+### Show working tree status
+
+```
+git status
+```
+
+### Show commits
+
+```
+git show
+```
+
+### Show log
+
+```
+git log
+```
+
+### Show diffs
+
+```
+git diff
+```
+
+#HSLIDE
+
+## Transfer changes to server
+
+### Add changes to local repository
+
+```
+git commit -am "meaningful commit message"
+```
+
+### Push changes to remote repository
+
+```
+git push
+```
+
+#HSLIDE
+
+## Undo Things
+
+### Unmodify modified file
+
+```
+git checkout -- filen.ame
+```
+
+### Revert commit
+
+```
+git revert 9f38eff
+```
+
 #HSLIDE
 
 ## Workshop
