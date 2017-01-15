@@ -9,6 +9,22 @@ Norbert Eder
 
 #HSLIDE
 
+## Glossary
+
+Clone
+> Clone a repository into a new directory
+
+Checkout
+> Switch branches or restore working tree files
+
+Merge
+> Join two or more development histories together
+
+Stash
+> Shelve the changes in a dirty working directory away
+
+#HSLIDE
+
 ## Basics
 
 Introduction into git
