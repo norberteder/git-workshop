@@ -197,6 +197,30 @@ Delete branch
 git branch -d <branchname>
 ```
 
+#VSLIDE
+
+## Switch branches
+
+Switch branch
+
+```
+git checkout <branch>
+```
+
+Create and/or reset branch
+
+```
+git checkout -f <branch>
+```
+
+## Merge branches
+
+Call from target branch
+
+```
+git merge <branch>
+```
+
 #HSLIDE
 
 ## Workshop
