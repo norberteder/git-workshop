@@ -228,6 +228,8 @@ git stash pop <stash>
 
 Working with branches
 
+#VSLIDE
+
 ### Working with branches
 
 List branches
