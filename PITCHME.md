@@ -5,6 +5,7 @@
 ## Get Into git easily
 
 Norbert Eder
+[@norberteder](https://www.twitter.com/norberteder)
 
 #HSLIDE
 
@@ -16,19 +17,20 @@ Get an overview how git works.
 
 ### Configuration
 
+* global
+* local
+
 #VSLIDE
 
 #### List Configuration
 
-Configuration data is stored globally and can be overwritten locally.
-
-Show a list of global configurations:
+List global configuration:
 
 ```
 git config --global -l
 ```
 
-To show the local configuration, call (from within a repository):
+List local configuration:
 
 ```
 git config -l
@@ -38,19 +40,47 @@ git config -l
 
 #### Configure Identity
 
-To configure your identity set `user.name` and `user.email`. You can do this either globally or locally:
+Set global configuration:
 
 ```
 git config --global user.name "Max Mustermann"
 git config --global user.email "m.mustermann@test.com"
 ```
 
+Set local configuration: 
+
+```
+git config user.name "Max Mustermann"
+git config user.email "m.mustermann@test.com"
+```
+#VSLIDE
+
+### Initialize Repository
+
+Create directory and jump in.
+
+```
+git init
+```
+
+#VSLIDE
+
+### Clone Repository
+
+Clone a repository from a git server:
+
+```
+git clone https://github.com/norberteder/git-workshop
+```
+
 #HSLIDE
 
-## Commands
+## General Commands
 
 The most important commands.
 
 #HSLIDE
 
 ## Workshop
+
+### Local Branch
