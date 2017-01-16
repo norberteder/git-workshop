@@ -132,7 +132,7 @@ Show working tree status
 git status
 ```
 
-Show commits
+Show commits/diffs
 
 ```
 git show
@@ -141,7 +141,7 @@ git show
 Show log
 
 ```
-git log
+git log [<file>]
 ```
 
 Show diffs
