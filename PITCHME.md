@@ -260,6 +260,8 @@ List only remote branches
 git branch -r
 ```
 
+#VSLIDE
+
 ### Working with branches
 
 Create branch
