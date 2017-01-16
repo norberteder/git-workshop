@@ -118,7 +118,7 @@ git clone https://github.com/norberteder/git-workshop
 Add new file (stage)
 
 ```
-git add file-to-add.md
+git add <filename>
 ```
 
 Add all files
@@ -130,7 +130,7 @@ git add .
 Remove file
 
 ```
-git rm file-to-delete.md
+git rm <filename>
 ```
 
 #VSLIDE
@@ -466,3 +466,9 @@ Show renames in log per default
 ```
 git config --global diff.renames true
 ```
+
+#HSLIDE
+
+## Reference
+
+See [https://git-scm.com/docs](https://git-scm.com/docs "git reference")
