@@ -324,6 +324,7 @@ How merging works
 * *Fast-forward*: Current branch head is an ancestor of the named commit
 * *True merge*: Branches to be merged must be tied together by a merge commit; has two parents
 
+
 ### Merge Commands
 
 Abort merge
