@@ -9,6 +9,9 @@ Watch the [presentation](https://gitpitch.com/norberteder/git-workshop "git work
 * Glossary
 * Basics
 * Common Commands
+* Branches
+* Merges
+* Remotes
 
 ## Future
 
