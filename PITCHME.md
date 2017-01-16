@@ -333,6 +333,89 @@ git merge --abort
 
 #HSLIDE
 
+## Remotes
+
+Working with Remotes
+
+#VSLIDE
+
+### Basics
+
+* Remote repositories are hosted on the internet or network
+* One repository can have several remotes
+
+#VSLIDE
+
+### List remotes
+
+Showing your remotes
+
+```
+git remote
+```
+
+Showing remote URLs
+
+```
+git remote -v
+```
+
+#VSLIDE
+
+### Working with remote repositories
+
+Add remote repository
+
+```
+git remote add [shortname] [url]
+git remote add test http://mygitserver/test
+```
+
+Fetch remote repository
+
+```
+git fetch [shortname]
+git fetch test
+```
+
+> fetch does not merge anything!
+
+#VSLIDE
+
+### Working with remote repositories 2
+
+Pushing to remotes
+
+```
+git push [remote-name] [branch-name]
+git push origin master
+```
+
+Inspecting a remote
+
+```
+git remote show [shortname]
+git remote show test
+```
+
+#VSLIDE
+
+### Working with remote repositories 3
+
+Rename
+
+```
+git remote rename test final
+```
+
+Remove
+
+```
+git remote rm final
+```
+
+#HSLIDE
+
 ## Workshop
 
 Hands on samples
