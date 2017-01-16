@@ -240,13 +240,27 @@ Working with branches
 
 #VSLIDE
 
-### Working with branches
+### List branches
 
-List branches
+List existing branches
 
 ```
 git branch
 ```
+
+List remote and local branches
+
+```
+git branch -a
+```
+
+List only remote branches
+
+```
+git branch -r
+```
+
+### Working with branches
 
 Create branch
 
