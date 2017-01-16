@@ -9,13 +9,21 @@ Norbert Eder
 
 #HSLIDE
 
-## Glossary
+## Glossary 1
 
 Topic | Description
 ----- | -----------
+Blame | Show annotation
 Clone | Clone a repository into a new directory
 Checkout | Switch branches or restore working tree files
 Merge | Join two or more development histories together
+
+#VSLIDE
+
+## Glossary 2
+
+Topic | Description
+----- | -----------
 Stash | Shelve the changes in a dirty working directory away
 
 #HSLIDE
@@ -284,6 +292,10 @@ git merge <branch>
 
 ## Workshop
 
+Hands on samples
+
+#HSLIDE
+
 ### Local Branch
 
 ```
@@ -293,4 +305,37 @@ git merge <branch>
 (master): git merge hotfix
 (master): git push
 (master): git branch -d hotfix
+```
+
+#HSLIDE
+
+### Rename
+
+* git tracks content, no files
+* Automatic detection (add + delete)
+* Log does not show renames (default)
+* Detection works without `git mv`
+
+#VSLIDE
+
+#### Rename sample
+
+```
+echo "test1" > test1.txt
+git commit -am "commit 1"
+echo "test1+" > test1.txt
+git commit -am "commit 2"
+ren test1.txt test11.txt
+git commit -a am "rename"  // don't forget -a
+git log test11.txt
+git log --follow test11.txt
+```
+
+#VSLIDE
+
+#### Rename tipps
+
+Show renames in log per default
+```
+git config --global diff.renames true
 ```
