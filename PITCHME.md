@@ -282,6 +282,8 @@ Create and/or reset branch
 git checkout -f <branch>
 ```
 
+#VSLIDE
+
 ### Merge branches
 
 Call from target branch
