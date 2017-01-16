@@ -26,6 +26,7 @@ Topic | Description
 ----- | -----------
 Pull | Incorporates changes from a remote repository into the current branch
 Push | Updates remote refs using local refs
+Remotes | Repositories on internet or network
 Stash | Shelve the changes in a dirty working directory away
 
 #HSLIDE
@@ -114,7 +115,7 @@ git clone https://github.com/norberteder/git-workshop
 
 ### Handling files
 
-Add new file
+Add new file (stage)
 
 ```
 git add file-to-add.md
