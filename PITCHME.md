@@ -296,7 +296,7 @@ git checkout <branch>
 Create and/or reset branch
 
 ```
-git checkout -f <branch>
+git checkout -b <branch>
 ```
 
 You can switch branches while having uncommitted work.
