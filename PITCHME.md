@@ -201,7 +201,7 @@ git revert 9f38eff
 
 #VSLIDE
 
-## Stashing
+## Stashing 1
 
 Stash working changes
 
@@ -220,6 +220,10 @@ Show specific stash
 ```
 git stash show <stash>
 ```
+
+#VSLIDE
+
+## Stashing 2
 
 Drop stash
 
